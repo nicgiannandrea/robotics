@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001010001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001010001" font="Arial" controllayout="npnxnanbsnfns00001010001" colorscheme="npnxnanbnsnfns00001010001" string_table="npnxnanbnsnfns00001010001" />
+    <layout name="pxabnsnfns00001010001" font="Arial" controllayout="pxabnsnfns00001010001" colorscheme="npnxnanbnsnfns00001010001" string_table="npnxnanbnsnfns00001010001" />
+    <layout name="npxnabnsnfns00001010001" font="Arial" controllayout="npxnabnsnfns00001010001" colorscheme="npnxnanbnsnfns00001010001" string_table="npnxnanbnsnfns00001010001" />
+    <layout name="npnxnanbnsnfns00001010001" font="Arial" controllayout="npnxnanbnsnfns00001010001" colorscheme="npnxnanbnsnfns00001010001" string_table="npnxnanbnsnfns00001010001" />
+    <layout name="pxabnsnfns00001010000" font="Arial" controllayout="pxabnsnfns00001010000" colorscheme="npnxnanbnsnfns00001010001" string_table="npnxnanbnsnfns00001010001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="REC 1.13 VexV5 v4.1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="right" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="glossary" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="linkright" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="false" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001010000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00001010001">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+                <color rgb="0x8E07BA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0D0D0D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="50" stop="0" />
+                <color rgb="0x8E07BA" alpha="50" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xF2F2F2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9C27B0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9C27B0" alpha="65" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="25" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFC000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E07BA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00001010001">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Index</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Arial">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6SvoAr4nNIu.6eds2Lxm5gN" displaytext="1.13 (Core): Wireless Control " expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.5UyHWcZKaeM" displaytext="2. Simple Radio Control" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.6n5GfyinVzF" displaytext="3. Radio Signals" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.6SlY5Ev6j7x" displaytext="4. 2.4 GHz" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.5bAFeiFtnXE" displaytext="5. Frequency Bands" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.5t5gKzIAbaY" displaytext="6. Spread Spectrum Broadcast" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.5XsLlpViIdF" displaytext="7. Spread Spectrum Broadcast - Continued" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.5euGD15UwL2" displaytext="8. Syncing Devices" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.6q2MtPRxFoA" displaytext="9. Using The Wireless Controller" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.6g2ipgEnxpG" displaytext="10. LCD Screen" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.5VKjQDo9BoY" displaytext="11. Home Screen" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.67zv18tJDzh" displaytext="12. Charging the Wireless Controller" expand="false" type="slide" />
+        <slidelink slideid="_player.6SvoAr4nNIu.6n60fLgYpDU" displaytext="13. Lesson Completed" expand="false" type="slide" />
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Abrasion">Wearing, rubbing, or grinding away by friction.</term>
+      <term title="Absolute Position">1. A position defined in reference to the origin of a coordinate system. 2. A position defined in reference to the home position of a robotic device.</term>
+      <term title="Acceleration">1. The rate of change of an object's velocity with respect to time. 2. Change in either the direction or magnitude of an object's velocity.</term>
+      <term title="Actuator">An output device which converts electricity to motion.</term>
+      <term title="Addendum">The portion of the gear tooth that lies outside the pitch circle.</term>
+      <term title="Addendum Circle">A circle bounding the tips of a gear's teeth.</term>
+      <term title="Adhesion">The temporary molecular attraction between two surfaces in contact with each other.</term>
+      <term title="Algorithm">A set of instructions for accomplishing a task.</term>
+      <term title="Alkaline Battery">A standard, non-rechargeable battery which uses an alkaline electrolyte.</term>
+      <term title="Alphanumerics">Numerals and letters of the alphabet.</term>
+      <term title="Alternating Current">Electricity in which the direction of flow of electrons repeatedly reverses.</term>
+      <term title="Analog">(adjective) Having a value from a continuous range of possible values.</term>
+      <term title="Analog Input Port">An input port to which an analog peripheral device may be connected.</term>
+      <term title="Analog Sensor">A sensor that reads a value from a range of possible values.</term>
+      <term title="Angular Acceleration">Change in magnitude of an object's angular velocity or spin rate.</term>
+      <term title="Angular Velocity">The rate at which an object revolves, rotates, or spins. Measured in revolutions per minute (RPM).</term>
+      <term title="Anode">The positive electrode of a battery.</term>
+      <term title="Antenna">A conductor that can transmit and/or receive electromagnetic waves.</term>
+      <term title="Arc Welding">The process of joining two heavy, solid pieces of metal with the heat from a high-voltage spark.</term>
+      <term title="Arcade Mode">A style of controlling a robot?s drive train using one joystick. The controller reads the forward/backward and left/right movement of the joystick to determine the relative speeds of the two sides of the drive train.</term>
+      <term title="Argument">A value given to a function to control the performance of the designated task. Also called a parameter.</term>
+      <term title="Armature">An assembly of poles, wire windings, and the rotor of an electric motor.</term>
+      <term title="Articulated">(adjective) Having multiple segments held together by joints.</term>
+      <term title="Assignment">Storing a value in a variable.</term>
+      <term title="Assignment Operator">The = operator, used to assign a value to a variable. (Not to be confused with the comparison operator ==).</term>
+      <term title="Autonomous">(adjective) Functioning independently, without human involvement.</term>
+      <term title="Average Speed">Total distance traveled divided by elapsed time.</term>
+      <term title="Average Velocity">Displacement divided by elapsed time.</term>
+      <term title="Axis of Rotation">The line about which an objects revolves, rotates or spins. Also called the fulcrum.</term>
+      <term title="Axle">The rod on which a wheel or gear rotates. Unlike a shaft, an axle does not transmit torque.</term>
+      <term title="Back Drive">The unwanted activation of a loaded motor after the electrical power has been shut off, usually as a result of external forces applied to a driven component or wheel. </term>
+      <term title="Backlash">Looseness or slackness in the meshing of gears in a gear train.</term>
+      <term title="Base 2">A system of representing numbers using only the two digits 1 and 0. Also known as binary.</term>
+      <term title="BaseBot">The basic robot platform for all REC projects.</term>
+      <term title="Battery">A device that converts stored chemical energy into electrical energy.</term>
+      <term title="Bead">The line of melted material which joins two welded pieces.</term>
+      <term title="Bearing">A component used to reduce friction between moving parts of a machine.</term>
+      <term title="Bevel Gears">Cone-shaped gears with teeth cut at an angle with respect to the axis of rotation.</term>
+      <term title="BHCS">Button Head Cap Screw.</term>
+      <term title="Bit">A single binary digit.</term>
+      <term title="Block">In EasyC, a graphical representation of a function or operation.</term>
+      <term title="Boolean Algebra">A logical calculus named for mathematician George Boole, where alphabetic symbols are used to represent logical variable, 1 and 0 are states, and, AND, OR, and NOT are the basic logical operations. NAND and NOR can be represented by combinations of AND, OR and NOT. </term>
+      <term title="Bore">The center hole of a gear where the axle or shaft is inserted. The bore often has a keyway cut into it.</term>
+      <term title="Brainstorming">The process of creating a pool of ideas for analysis and testing.</term>
+      <term title="Branching">The property of a computer program in which program flow has more than one possible path.</term>
+      <term title="Brushless Motor">An electric motor with electromagnetic coils on the outside stator and an assembly of permanent magnets on the rotor.</term>
+      <term title="Buffer">A region of computer memory where data is stored temporarily before being transferred to where it is used.</term>
+      <term title="Bug">A code or algorithm error. Often hard to find.</term>
+      <term title="Bumper Switch">A digital sensor that reports zero to the VEX controller when it is in physical contact with an object, and one at all other times.</term>
+      <term title="Byte">A unit of computer memory consisting of 8 bits.</term>
+      <term title="C">A computer programming language.</term>
+      <term title="Cable Tie">A plastic fastener used to bundle and secure cables.</term>
+      <term title="Call">(verb) To cause program flow to switch to a function.</term>
+      <term title="Callee">Function that is executed by another piece of code. Opposite of caller.</term>
+      <term title="Caller">Code that executes a function. Opposite of a callee.</term>
+      <term title="Cartesian Coordinate System">1. In three-dimensional space, a system of coordinates in which the location of a point is defined by reference to distance from planes defined by axes which are placed at right angles to each other. 2. In two-dimensional space, a system of coordinates in which the location of a point is defined by reference to distance from the axes.</term>
+      <term title="Cartesian Robot">A robot which has translational degrees of freedom, but no rotational degrees of freedom.</term>
+      <term title="Caster">A wheel in contact with the ground, spinning freely without direct mechanical connection to a motor.</term>
+      <term title="Cathode">The negative electrode of a battery.</term>
+      <term title="Center Distance">The distance between the centers of two gears that engage one another.</term>
+      <term title="Center of Gravity">The point about which an object would be balanced. Abbreviated CG, and also known as Center of Mass or Center of Weight.</term>
+      <term title="Center of Mass">The point about which an object would be balanced. Also known as Center of Gravity.</term>
+      <term title="Char">The smallest variable type, consisting of 8 bits and having 256 possible values.</term>
+      <term title="Chassis">The basic structural frame of a machine.</term>
+      <term title="Chemical Potential Energy">Potential energy stored in the chemical bonds of a compound.</term>
+      <term title="CIM">Computer Integrated Manufacturing: an automated assembly line that uses a network of computers to control robots, production machines and quality control devices.</term>
+      <term title="Clearance">The space between two adjacent objects.</term>
+      <term title="Clockwise">(adjective) Rotating in the same direction as the hands of a clock. Abbreviated CW. Also called negative rotation.</term>
+      <term title="Closed-Loop">(adjective) Using feedback from sensors as a basis for making program decisions.</term>
+      <term title="Clutch">A device placed in contact with a rotating part that allows it to slip when the torque exceeds the friction.</term>
+      <term title="CNC">Computer Numerical Control: A category of automated machine tools, such as mills, routers and lathes, which operate using Numerical Control (NC) instructions received from a computer program.</term>
+      <term title="Code">Instructions for a computer.</term>
+      <term title="Coefficient of Friction">An experimentally determed ratio between the applied normal force and the resulting friction force between two materials in contact with each other.</term>
+      <term title="Collar">A metal ring affixed to an axle or shaft which prevents attached components from sliding along the axle or shaft.</term>
+      <term title="Command">A call to a function in a computer programming language.</term>
+      <term title="Comment">A non-functional note added to computer code for the benefit of the programmer.</term>
+      <term title="Commutator">Mechanical device that allows electric current to reverse direction within an electric motor.</term>
+      <term title="Comparison Operator">An operator used to compare two values.</term>
+      <term title="Compilation">The process of converting a C-language program into machine code.</term>
+      <term title="Component">An element of a larger system or collection.</term>
+      <term title="Compound Gear">An assembly of two gears of different sizes, fixed to a single axle. Also called a stacked gear.</term>
+      <term title="Compound Gear Train">An assembly of gears and axles, in which one or more axles has two gears of differing sizes.</term>
+      <term title="Computer Integrated Manufacturing">A manufacturing process which is controlled by a computer. Abbreviated CIM.</term>
+      <term title="Connector">A socket or plug used to link components together electrically.</term>
+      <term title="Constant">A hard-keyed value in the program code which cannot be changed while the program is running.</term>
+      <term title="Continuity">An unbroken electrical path in an electrical circuit or connector.</term>
+      <term title="Controller">A component which contains a computer and connectors for various input and output devices.</term>
+      <term title="Convention">A widely used standard or practice, based on general consensus.</term>
+      <term title="Core">A metal, plastic, or ceramic cylinder for wire windings to coil about.</term>
+      <term title="Counter-Clockwise">(adjective) Rotating opposite to the direction of the hands of a clock. Abbreviated CCW. Also called positive rotation.</term>
+      <term title="Countersunk">(adjective) In reference to screws, recessed to be flush with the flat surface of a member.</term>
+      <term title="Crank Rocker">A mechanism in which one link rotates and the opposite link rocks back and forth.</term>
+      <term title="Crank Slider">A mechanism in which one link rotates and the opposite link slides back and forth.</term>
+      <term title="Cylindrical Robot">A robot with a work envelope in the shape of a cylinder.</term>
+      <term title="Dead Man's Switch">An emergency stop switch which shuts down a machine if the operator lets go of the switch.</term>
+      <term title="Dead Reckoning">Navigation without feedback from sensors.</term>
+      <term title="Deadband">The range of input values which do not produce any output.</term>
+      <term title="Declaration">Definition of variables together with their variable types and any initial values.</term>
+      <term title="Decrement">(verb) To decrease the value of a variable.</term>
+      <term title="Dedendum">The portion of a gear tooth that lies inside the pitch circle.</term>
+      <term title="Dedendum Circle">The circle that passes through the bottom of each tooth on a gear.</term>
+      <term title="Deformation">Change in shape due to the application of force.</term>
+      <term title="Degree of Freedom">The ability of an object or joint to rotate or translate with respect to an axis.</term>
+      <term title="Diametral Pitch">On a gear, the number of teeth per inch, measured along the pitch circle.</term>
+      <term title="Digital">(adjective) 1. Represented by discrete numeric values. 2. Represented by binary values.</term>
+      <term title="Digital Input">1. Discrete numeric values transmitted to a computer. 2. Input in the form of binary values (on/off).</term>
+      <term title="Digital Input Port">A connector for a digital sensor.</term>
+      <term title="Digital Output">1. Discrete numeric values transmitted from a computer. 2. Output in the form of binary values (on/off).</term>
+      <term title="Digital Output Port">A connector for a digital output device.</term>
+      <term title="Digital Sensor">A sensor that provides feedback in only 2 possible states, on or off.</term>
+      <term title="Direct Current">Electricity which flows in one direction, from the negative terminal to the positive terminal.</term>
+      <term title="Displacement">The shortest path between two positions, with reference to both direction and magnitude. (Not to be confused with distance).</term>
+      <term title="Distance">1. The shortest possible path between two positions, with reference only to magnitude. 2. The total length of a path from start point to end point.</term>
+      <term title="Double">In EasyC, a real number taking up four bytes. It has six significant figures and can range from -1 x 10^38 to 1 x 10^38. Also called a float.</term>
+      <term title="Download">(verb) To transfer from the desktop computer to the robot. Also used as a noun.</term>
+      <term title="Drive Train">A system of components which transmit mechanical energy from the motor to the wheels.</term>
+      <term title="Driven Gear">A gear which receives mechanical energy from another gear.</term>
+      <term title="Driver Gear">A gear which transmits mechanical energy to another gear. Also called a driving gear.</term>
+      <term title="Dry Cell Battery">An electrical battery whose electrolyte is in the form of a paste rather than a liquid.</term>
+      <term title="Echolocation">The use of sound to determine position based on the return time of the echoes.</term>
+      <term title="Efficiency">The ratio of useful energy output to total energy input.</term>
+      <term title="Electric Current">The flow of electrons through a wire or other conductor.</term>
+      <term title="Electrode">1. In electronics, a conductor which makes contact with a non-metallic part of an electric circuit. 2. In arc welding, a metal rod which delivers the spark to the pieces being joined, and which also melts to fuse with those pieces.</term>
+      <term title="Electrolyte">An electrically conductive ionic solution, in which electrodes of dissimilar metals are placed to create a battery.</term>
+      <term title="Electromagnet">A coil of wire which produces a magnetic field when supplied with electricity.</term>
+      <term title="Electromagnetic Wave">A wave of energy with both electric and magnetic variations. Depending on the frequency, the wave could be radio waves, infrared light, visible light, ultraviolet, X-rays, gamma rays, etc.</term>
+      <term title="Emergency Stop Switch">A button used to immediately shut down a machine.</term>
+      <term title="Empirical">(adjective) Based on observation.</term>
+      <term title="Encoder">A device which converts motion into a series of electrical pulses.</term>
+      <term title="End Effector">A device attached to the end of a movable arm, which can effect change in the environment of a machine. Also called a manipulator.</term>
+      <term title="Energy">A quantity representing the ability to perform work.</term>
+      <term title="Engineering Design Cycle">The process used in engineering design, consisting of Problem Identification, Brainstorming, Analysis, Prototyping, Testing and Optimization, and Presentation.</term>
+      <term title="Engineering Notebook">A notebook which contains all notes relevant to the development of a patentable product.</term>
+      <term title="Equilateral Triangle">A triangle where all sides are of equal length and each angle is 60 degrees.</term>
+      <term title="Equilibrium">The state at which the motion of an object does not change.</term>
+      <term title="Execute">(verb) 1. To start a computer program. 2. To continue following the instructions of a computer program. Synonymous with 'to run'.</term>
+      <term title="Expression">In mathematics: A symbol or combination of symbols that represents a quantity or a relationship between quantities.</term>
+      <term title="FALSE">Not true. In programming, a value of 0. By convention, always written in capital letters.</term>
+      <term title="Fastener">A mechanical device that joins two or more objects together.</term>
+      <term title="Federal Communications Commission">The US Government agency which regulates the use of radio frequencies. Abbreviated FCC.</term>
+      <term title="Feedback">Received data used to regulate the output of a system.</term>
+      <term title="Female Connector">A connector socket that a male connector fits into.</term>
+      <term title="Float">In EasyC, a real number taking up four bytes of memory. It has six significant figures and can range from -1 x 10^38 to 1 x 10^38. Also called a double.</term>
+      <term title="Floating Point">A decimal value between whole numbers.</term>
+      <term title="Flowchart">A diagram showing a sequence of operations.</term>
+      <term title="Force">Anything that causes the motion of a physical system to change.</term>
+      <term title="Four-Bar Parallel Link">A mechanism consisting of four links arranged in the shape of a parallelogram.</term>
+      <term title="Free Spin">The maximum angular velocity that a motor can achieve when unattached to a drive train and not loaded with weight. Also called no-load RPM.</term>
+      <term title="Frequency">The number of times per second something happens, measured in Hertz (Hz).</term>
+      <term title="Frequency">The number of waves, vibrations, etc. per second.</term>
+      <term title="Frequency">1. The number of times per second something happens, measured in Hertz (Hz). 2. The number of waves, vibrations, etc. per second.</term>
+      <term title="Friction">The force of physical contact that opposes the motion of an object.</term>
+      <term title="Fulcrum">1. The pivot point of a lever. 2. The axis of rotation of a moment arm.</term>
+      <term title="Function">A prepackaged sequence of program instructions which can be called from any place within the program.</term>
+      <term title="Gantry">A bridge-like crane which moves along a set of parallel tracks instead of rotating about a central pivot.</term>
+      <term title="Gear Box">An enclosed module containing a system of compound gears used to produce a larger effective gear ratio than would be practical with a single set of gears.</term>
+      <term title="Gear Gnashing">The slipping of gears past one another because the teeth do not mesh properly.</term>
+      <term title="Gear Head Motor">A single module containing a motor and a sealed gear train to provide a predetermined output.</term>
+      <term title="Gear Ratio">The ratio of the number of teeth on the input gear to the number of teeth on the output gear.</term>
+      <term title="Gear Reduction">A set of gears with a gear ratio less than 1, such that the output speed is less than the input speed, but the output torque is greater than the input torque.</term>
+      <term title="Gear Train">An assembly of gears between the motor and the moving part controlled by the motor.</term>
+      <term title="Global Variable">A variable which exists in memory as long as the program is running and is available for use by the entire program.</term>
+      <term title="Gripper">A pincer-like end effector designed to grab objects.</term>
+      <term title="Ground">(noun) 1. An electrical connection to the Earth. 2. An electrical connection to the chassis of an electrical device. 3. (verb) To make a connection between an object and the electrical ground.</term>
+      <term title="Gusset">A metal plate designed to join parts at a specific angle.</term>
+      <term title="Hardware Reset">To use a switch or other impossible-to-ignore hardware device to cause a processor to stop all current operations and restart the program.</term>
+      <term title="Helical Gear">A cylindrical gear with teeth in the shape of spirals.</term>
+      <term title="Horsepower">A unit of power.</term>
+      <term title="Hydraulic">(adjective) Operated or moved by liquid such as water or oil.</term>
+      <term title="Hydrophone">An underwater microphone.</term>
+      <term title="Hydroplaning">The slip of a wheel on a road surface because of a thin intermediate layer of water.</term>
+      <term title="Hypoid">A hypoid is a type of spiral bevel gear whose axis does not intersect with the meshing gear. The basic shape of a hypoid gear is a revolved hyperboloid, whereas the basic shape of a normal spiral bevel gear is a simple cone.</term>
+      <term title="Idler Gear">A gear placed between the driver gear and the driven gear, with the same number of teeth as either one so that it extends the reach of the driver gear but does not affect the gear ratio.</term>
+      <term title="Impedance">A measure of the opposition to the flow of alternating current through a circuit. Impedance is measured in ohms.</term>
+      <term title="Incrementing">Increasing the value of a variable.</term>
+      <term title="Inertia">The resistance of an object to changes in position or velocity.</term>
+      <term title="Infrared">The range in the electromagnetic spectrum with a longer wavelength and lower frequency than visible light, and a shorter wavelength and higher frequency than radio waves. Can be felt as heat.</term>
+      <term title="In-Line Code">Code that performs all of its operations in one contiguous series of operations with minimal or no use of external functions. Generally quite long and can be hard to read/maintain.</term>
+      <term title="Input">Information going into a computer.</term>
+      <term title="Instantaneous Speed">The speed of an object at a given instant.</term>
+      <term title="Instantaneous Velocity">The velocity of an object at a given instant.</term>
+      <term title="Instruction">A single step in a computer program.</term>
+      <term title="Int">A variable type which holds 16 bits and has 65,536 possible values.</term>
+      <term title="Integer">A natural number (counting number), its negative, or zero.</term>
+      <term title="Intelligence">The ability to gather and apply knowledge.</term>
+      <term title="Internal Gear">A ring-shaped gear with teeth on the interior surface.</term>
+      <term title="Interrupt">An external event that interrupts the normal program.</term>
+      <term title="Iteration">A single cycle through a repeating sequence of steps.</term>
+      <term title="Joule">A unit of energy.</term>
+      <term title="Joystick">A control device consisting of a stick that can be moved forward/backward and left/right.</term>
+      <term title="Jump Statement">A programming statement or command that interrupts the normal flow of a program. Examples in C include continue, break, return and goto.</term>
+      <term title="Key">A small rectangular prism of steel that is used to splice a gear and axle into a single assembly.</term>
+      <term title="Keyway">A rectangular channel cut into the bore hole of a gear or wheel to lock it to an axle.</term>
+      <term title="Kinetic Friction">1. The frictional force between two objects which are in relative motion and in contact with each other. 2. The frictional force between an object and the fluid through which it moves.</term>
+      <term title="KISS">An acronym for Keep It Simple, Stupid, the principle that simpler solutions are often better.</term>
+      <term title="Laser">A device which emits high-intensity light of a single frequency or wavelength. The acronym LASER stands for Light Amplification by Stimulated Emission of Radiation.</term>
+      <term title="Law of Inertia">In the absence of an outside force, an object at rest will stay at rest, and an object in motion will continue moving at the same direction and speed.</term>
+      <term title="Left-Hand Rule">If the thumb and first two fingers of the left hand are extended at right angles from one another, with the thumb pointing up and the index finger pointing away from the body, the middle finger is pointed in the positive direction on the X axis, the index finger is pointed in the positive direction on the Y axis, and the thumb is pointed in the positive direction on the Z axis.</term>
+      <term title="Lever Arm">A rod or beam which extends from an axis of rotation to a point where force or a load is applied. Also called a moment arm.</term>
+      <term title="Lever, Class 1">A lever where the fulcrum lies between the force exerted and the load.</term>
+      <term title="Lever, Class 2">A lever where the load lies between the force exerted and the fulcrum.</term>
+      <term title="Lever, Class 3">A lever where the force exerted lies between the load and the fulcrum.</term>
+      <term title="Light Emitting Diode">An electronic component that emits light as electric current is passed through it. Abbreviated LED.</term>
+      <term title="Limit Switch">A switch which controls the limits of travel of a moving part.</term>
+      <term title="Linear">(adjective) 1. In a straight line. 2. Made of or pertaining to lines.</term>
+      <term title="Linear Acceleration">Acceleration along a straight line.</term>
+      <term title="Linear Motion">Motion along a straight line. Also known as translation or translational motion.</term>
+      <term title="Linear Velocity">Velocity as measured along a straight line.</term>
+      <term title="Linkage">A physical connection used to transfer power and motion.</term>
+      <term title="Loading">The application of weight to a motor.</term>
+      <term title="Local Variable">A variable which is only temporary, belongs to the associated function, and is created from scratch each time the function is called.</term>
+      <term title="Localization">The process by which a robot corrects any accumulated errors between its calculated position and its actual position.</term>
+      <term title="Lodestone">Naturally occurring rock with a magnetic field.</term>
+      <term title="Long">A type of variable that (in the EasyC language) occupies 4 bytes of space.</term>
+      <term title="Loop">A sequence of instructions in programming where, immediately after the last instruction, control passes back to the first instruction.</term>
+      <term title="Lowercase Letters">Small letters such as a, b, c, d, etc.</term>
+      <term title="LValue">The variable that is on the left side of the equal sign in an assignment operation. For example, in the equation y=x+10, y is the LValue.</term>
+      <term title="Machine Code">The sequence of instructions which a computer is able to use directly.</term>
+      <term title="Magnetic Field">The region of magnetic influence about a magnet.</term>
+      <term title="Male Connector">A connector with a protruding metal part which fits into a socket.</term>
+      <term title="Manipulator">A device attached to the end of a movable arm, which can effect change in the environment of a machine. Also called an end effector.</term>
+      <term title="Mass">A measure of the amount of matter an object possesses. In simplest terms, the amount of stuff that something is made of.</term>
+      <term title="Mechanical Energy">The energy that performs work on an object, causing it to change its motion.</term>
+      <term title="Mechanism">An assembly of parts which perform work.</term>
+      <term title="Memory">The portion of a computer which stores data in digital form, including program instructions and variables.</term>
+      <term title="Microprocessor">A single chip which contains the central processing unit of a computer.</term>
+      <term title="Millisecond">1/1000 of a second.</term>
+      <term title="Module">A self-contained part that can be easily interchanged.</term>
+      <term title="Modulus">The remainder when dividing integers. In C, this is done with the % symbol. Abbreviated Mod.</term>
+      <term title="Moment">The product of a translational force and the distance between the axis of rotation and the point at which the force is applied.</term>
+      <term title="Moment Arm">A rod or beam which extends from a fulcrum to a point where force or a load is applied. Also called a lever arm.</term>
+      <term title="Motor">A device which produces mechanical energy.</term>
+      <term title="Motor Brushes">Carbon rods, held against the commutator to transfer electricity to the windings on the armature of a motor.</term>
+      <term title="Motor Module">The VEX module containing a continuous motor, a speed controller, and a gear box.</term>
+      <term title="Multifunctional">(adjective) Capable of performing a variety of tasks.</term>
+      <term title="Nautical Mile">6076 feet, one minute of arc as measured at the Earth's equator.</term>
+      <term title="Negative Rotation">Clockwise rotation.</term>
+      <term title="Nesting">Placement of one loop inside another.</term>
+      <term title="Net Force">The sum of all forces acting on an object.</term>
+      <term title="Net Torque">The sum of all torques acting on an object.</term>
+      <term title="Newton">A unit of force measurement named after Sir Isaac Newton.</term>
+      <term title="Newton Meter">A unit of torque or moment. Abbreviated N/m.</term>
+      <term title="Newton's 1st Law">An object at rest will remain at rest or an object in motion will remain in motion, unless acted upon by an outside force.</term>
+      <term title="Newton's 2nd Law">The acceleration of an object is directly proportional to the applied force and inversely proportional to the mass of the object.</term>
+      <term title="Newton's 3rd Law">For every force (the action), there exists an equal, yet opposite force (the reaction).</term>
+      <term title="NiCd">Rechargeable batteries in which the electrodes are made of nickel and cadmium.</term>
+      <term title="No-Load RPM">The maximum angular velocity that a motor can achieve when unattached to a drive train and not loaded with weight. Also called free spin.</term>
+      <term title="Non-Integer">Any number which is not a natural number (counting number), its negative, or zero.</term>
+      <term title="Normal Force">The force perpendicular (extending straight out) to a surface.</term>
+      <term title="Open-Loop">(adjective) Not using sensor feedback about the environment.</term>
+      <term title="Operator">A symbol denoting a computer operation or relationship.</term>
+      <term title="Oscillation">Periodic, repeating motion from one extreme to the other, such as in waves, the swinging of a pendulum or the bouncing of a spring.</term>
+      <term title="Output">Signals from the controller to another device, such as a motor.</term>
+      <term title="Overshooting">A response which is greater than expected from a stimulus.</term>
+      <term title="Parallax">The apparent shift of a foreground object against a background when the observation point is moved.</term>
+      <term title="Parallel">If two or more circuit components are connected like the rungs of a ladder it is said they are connected in parallel.</term>
+      <term title="Parallel circuits">Electrical circuit components can be connected together in one of two ways: series or parallel. These two names describe the method of attaching the components, that is one after the other or next to each other. A parallel circuit is a different path for current through each of its components. A parallel circuit provides the same voltage across all its components.</term>
+      <term title="Parallelogram">A four-sided shape in which each side is parallel to the side opposite.</term>
+      <term title="Parameter">A value given to a function to control the performance of the designated task. Also called an argument.</term>
+      <term title="Pass">The act of sending information (usually in a variable) from one piece of code to another, often from code to a function that is being called.</term>
+      <term title="Permanent Magnet">A magnetic object which does not require electricity to produce magnetism.</term>
+      <term title="Piezoelectric">(adjective) Able to produce electricity when subjected to physical stress or deformity.</term>
+      <term title="Pilot Hole">A small hole drilled into material before a screw is inserted. The diameter of the pilot hole is usually the root diameter of the screw.</term>
+      <term title="Pinch Point">The area of a mechanism, where two hard surfaces come together, creating the potential to close on or pinch an object that enters that area of the mechanism. </term>
+      <term title="Pinch Point">The area of a mechanism, where two hard surfaces come together, creating the potential to close on or pinch an object that enters that area of the mechanism. </term>
+      <term title="Ping">1. In navigation, a sound emitted by a SONAR device. 2. In telecommunications, a command that sends an echo request to a host with the expectation of a reply.</term>
+      <term title="Pinion Gear">The smaller of two gears in a gear combination.</term>
+      <term title="Pitch">1. On a threaded fastener such as a screw or bolt, the distance between the tip of one thread to the tip of the next. 2. On a gear, the distance between the tip of one tooth to the tip of the next. 3. On a chain, the distance between any three consecutive rivets divided by two. 4. Motion tilting forward or backward about a horizontal, transverse axis.</term>
+      <term title="Pitch Circle">A circle through the points where meshing gear teeth interact.</term>
+      <term title="Pitch Diameter">The diameter of the pitch circle of a gear.</term>
+      <term title="Pitch Radius">On a gear, the distance between the pitch circle and the center.</term>
+      <term title="Pivot">A joint that allows rotational movement.</term>
+      <term title="Planetary Gear Train">A gear system consisting of one or more outer gears, or planet gears, rotating about a central gear, or sun gear.</term>
+      <term title="Planetary Gears">planetary gearing is a gear system that consists of one or more outer gears, or planet gears, revolving about a central, or sun gear. Typically, the planet gears are mounted on a movable arm or carrier which itself may rotate relative to the sun gear. Epicyclic </term>
+      <term title="Pneumatic">(adjective) Using air to transmit work energy.</term>
+      <term title="Polar Coordinate System">1. In three-dimensional space, a system of coordinates in which the location of a point is defined by reference to angle of rotation, angle of elevation and distance from the origin. 2. In two-dimensional space, a system of coordinates in which the location of a point is defined by reference to angle of rotation and distance from the origin.</term>
+      <term title="Polar Robotic Arm">A robotic arm whose position is defined by the polar coordinate system.</term>
+      <term title="Pole">One of two ends of a magnet, designated North and South.</term>
+      <term title="Port">1. Computer hardware: An outlet for connection of a cable. 2. Telecommunications/Internet: A numeric designation indicating which program has originated a request.</term>
+      <term title="Position-Time Data">In linear motion analysis, a record of time and displacement.</term>
+      <term title="Positive Rotation">Counter-clockwise rotation.</term>
+      <term title="Potentiometer">A variable electrical resistor with a range of possible resistor values. As the potentiometer turns, the resistance increases or decreases.</term>
+      <term title="Pound Force">A unit of force measurement.</term>
+      <term title="Pound Mass">A unit of mass defined such that 1 pound mass weighs exactly 1 pound force in Earth gravity at sea level.</term>
+      <term title="Pound-Foot">A unit of torque or moment. Also called the foot-pound.</term>
+      <term title="Power Cycle">To reset a controller by turning off the power, waiting for the internal power supply to use up any residual voltage, and then turning the power back on. Often used to clear a failed condition or restart a program.</term>
+      <term title="Precedence">The order in which operations are done.</term>
+      <term title="Pressure Angle">At the point where the face of a gear tooth intersects with the pitch circle, the angle between the gear face and a ray from the center of the gear.</term>
+      <term title="Process">A series of steps.</term>
+      <term title="Process Control System">A system that uses devices such as Programmable Logic Controller, various sensors, and computed algorithms to monitor and maintain a particular manufacturing process.</term>
+      <term title="Program">1. (noun) A series of instructions for controlling a computer, written in code that the computer can understand. 2. (verb) To write a program for a computer.</term>
+      <term title="Programming Module">A hardware interface between a personal computer and the Vex controller.</term>
+      <term title="Proportionality">The property of two quantities which have a constant ratio.</term>
+      <term title="Prototype">1. In engineering, the first physical model of a design. 2. In computer programming, a declaration of a function, defining the name, parameters and type of return value.</term>
+      <term title="Pseudo">False or fake.</term>
+      <term title="Pseudo-Code">A written representation of what a program does, using plain English instead of computer programming language.</term>
+      <term title="Pulse Width Modulation">1. In an electrical signal which switches rapidly on and off, modulation of the width of the ON pulses. 2. A method of converting a steady voltage to a variable average voltage by rapidly switching on and off, regulating the ratio of ON time to OFF time. Abbreviated PWM.</term>
+      <term title="Rack">A long rectangular prism with gear teeth cut into one of the faces.</term>
+      <term title="Rack and Pinion">A gear train consisting of a spur gear and a rack gear.</term>
+      <term title="Radians per Second">A unit for measuring the angular velocity of rotating objects.</term>
+      <term title="Radio Control">The use of radio signals to remotely control another device. Abbreviated RC.</term>
+      <term title="Ramping">Controlled, gradual acceleration or deceleration.</term>
+      <term title="Range Finder">An instrument for finding the distance of an object.</term>
+      <term title="Rare-Earth Magnet">A powerful permanent magnet made of a combination of neodymium, iron, and boron.</term>
+      <term title="RC">1. Radio control. 2. Remote control.</term>
+      <term title="Receiver">An electronic device that reads radio waves with an antenna and decodes the radio signals from the transmitter.</term>
+      <term title="Rectifier">An electronic device which converts AC current to DC.</term>
+      <term title="Relative Position">A position relative to another position in a coordinate system.</term>
+      <term title="Remote Control">Control of a machine or apparatus from a distance. Abbreviated RC.</term>
+      <term title="Re-Programmable">(adjective) Capable of adaptation to new tasks without physical modification.</term>
+      <term title="Reserved Word">A word previously defined by a computer programming language and reserved for specific uses.</term>
+      <term title="Resistor">An electronic component which limits electron flow or current.</term>
+      <term title="Return">Takes place when a function has finished its operation and gives control back to the calling code. When the return operation takes place a value may optionally be passed back from the function to the caller.</term>
+      <term title="Revolution">1. Rotational movement of an object about a point which is not the center of gravity of the object, and which is outside its physical substance. 2. Rotation.</term>
+      <term title="Right-Hand Rule">If the right hand is clasped about an axis, the thumb points in the positive direction on the axis, and the fingers point in the positive direction of rotation.</term>
+      <term title="Ring Gear">The outer gear in a planetary gearset.</term>
+      <term title="Robot">1. A reprogrammable, multifunctional manipulator. 2. A machine which is controlled partly or completely by computer. 3. A machine in the shape of a human being or other animal.</term>
+      <term title="Rolling">The combination of rotational and translational motion that occurs when a round object moves in contact with another object without sliding.</term>
+      <term title="Rolling Friction">The friction that occurs when an object rolls.</term>
+      <term title="Root Diameter">The inside measurement of the threaded portion of a screw.</term>
+      <term title="Rotate">Circular motion around an axis. Example: A wheel rotates about its axle.</term>
+      <term title="Rotational Motion">The movement of an object in a circular path, as contrasted with a linear path. Synonymous with angular motion, spinning, turning.</term>
+      <term title="Rotor">The portion of a motor that rotates.</term>
+      <term title="RPM">Revolutions per minute; a unit for measuring angular velocity.</term>
+      <term title="Run">(verb) 1. To start a computer program. 2. To continue following the instructions of a computer program. Synonymous with to execute.</term>
+      <term title="Sampling">The process of reading values from a sensor at regular intervals.</term>
+      <term title="Sampling Rate">The number of times per second that values are read from a sensor.</term>
+      <term title="Self-Documenting Code">Computer code in which the names of the constants and variables reveal precisely what they mean and are being used for.</term>
+      <term title="Sensor">A device that provides information or feedback to a computer program.</term>
+      <term title="Sequence">An ordered series of events.</term>
+      <term title="Series">If two or more circuit components are connected end to end like a daisy chain, it is said they are connected in series.</term>
+      <term title="Series Circuits">Electrical circuit components can be connected together in one of two ways: series or parallel. These two names describe the method of attaching the components, that is one after the other or next to each other. A series circuit is a single path for current through all of its components.</term>
+      <term title="Servo Module">A module containing a servo motor.</term>
+      <term title="Servo Motor">A small, compact, gear head motor with a restricted range of rotational motion.</term>
+      <term title="Setscrew">A machine screw with no head, capable of being screwed all the way into a threaded hole. Usually used to fix something to a shaft.</term>
+      <term title="Shaft">A rod or beam used to transmit torque.</term>
+      <term title="Shank">The smooth portion of a screw or bolt between the head and the threads.</term>
+      <term title="Sheave">A wheel with a grooved rim for transmitting force to a cable or belt.</term>
+      <term title="Short Long">A type of variable that (in the EasyC language) occupies 3 bytes of space.</term>
+      <term title="SI">Systeme Internationale - the international system of units.</term>
+      <term title="Signed Int">A type of variable that (in the EasyC language) occupies two bytes of space, and supports positive and negative values.</term>
+      <term title="Signed Variable">A variable which can store both positive and negative values.</term>
+      <term title="Simple Machine">A device that requires the application a single force to accomplish a task; i.e., a lever, pulley, or inclined plane.</term>
+      <term title="Sliding Friction">The frictional force between two objects which are in relative motion and in contact with each other.</term>
+      <term title="Slipping">The loss of traction between two objects which are moving with respect to one another and in physical contact.</term>
+      <term title="Slug">32.174 pounds-mass.</term>
+      <term title="Solenoid">1. A coil of wire through which electricity passes, creating a magnetic field. 2. An electromagnet which is used to control a switch or valve.</term>
+      <term title="Sound Waves">Rapid, oscillating changes in pressure which are perceptible by the human ear.</term>
+      <term title="Spectrometer">An instrument that measures the relative intensity of different frequencies of electromagnetic radiation. Also called a spectrum analyzer.</term>
+      <term title="Split-Ring Commutator">A metal ring split into two halves, which make contact with the brushes of a motor to reverse the flow of electricity through the coils of the rotor.</term>
+      <term title="Spot Welding">The process of joining two pieces of sheet metal by passing a high electrical current through a small spot where the two pieces touch.</term>
+      <term title="Sprocket">A wheel with metal teeth that mesh with a chain.</term>
+      <term title="Spur Gear">A wheel-like disk with teeth cut along the outside rim, all teeth being parallel to the axis of rotation.</term>
+      <term title="Stacked Gear">An assembly of two gears of different sizes, fixed to a single axle. Also called a compound gear.</term>
+      <term title="Stall Torque">1. A torque value large enough to cause a motor to stop running. 2. The maximum torque output of a motor. Also called the torque rating.</term>
+      <term title="Static Friction">The friction force between contacting surfaces that are not moving or sliding in any way.</term>
+      <term title="Stator">The stationary part of an electric motor.</term>
+      <term title="Stepper Motor">A type of electric motor which can rotate by steps to an exact angle.</term>
+      <term title="Stroboscope">A stroboscope, also known as a strobe, is an instrument used to make a cyclically moving object appear to be slow-moving or stationary. The principle is used for the study of rotating, reciprocating, oscillating or vibrating objects. </term>
+      <term title="Syntax">The rules controlling how program statements must be written in a computer program.</term>
+      <term title="Tachometer">An instrument that measures the rotational speed of an object.</term>
+      <term title="Tangential Velocity">The linear velocity of a point on the rim of a rotating object.</term>
+      <term title="Tank Mode">A style of controlling a robot?s drive train using two joysticks. Each joystick controls the speed of one side of the robot?s drivetrain.</term>
+      <term title="Tank Mode">A style of controlling a robot's drive train using two joysticks. Each joystick controls the speed of one side of the robot?s drivetrain.</term>
+      <term title="Tapped Hole">A hole which is threaded to receive a screw or bolt.</term>
+      <term title="Teach Pendant">A miniature control panel which allows the operator to move a robot manually and run the robot's program one line at a time.</term>
+      <term title="Telemedicine">The practice of medicine by a physician who is separated from the patient by a great distance.</term>
+      <term title="Teleoperated">Controlled from a distance.</term>
+      <term title="Test">Programmatic step where the value of an expression is checked for equality, greater than, and/or less than some other value. Tests are used most often as decision points in a program, where based on the result, the program branches one way or another.</term>
+      <term title="Tether">A cable used to carry signals between a transmitter and receiver in place of a radio.</term>
+      <term title="Timing Diagram">A graph of the trace of an oscilloscope, showing the variation of voltage over time.</term>
+      <term title="Tooltip">A short text displayed when the mouse pointer is held over an item.</term>
+      <term title="Tooth Clearance">The space between the top of a tooth of one gear and the bottom of the tooth space of a mating gear.</term>
+      <term title="Tooth Face">The front part of a gear tooth.</term>
+      <term title="Tooth Thickness">The thickness of a gear tooth.</term>
+      <term title="Torque">1. A force applied at a distance from an axis of rotation. 2. The product of a linear force and the distance between the axis of rotation and the point of application of the force.</term>
+      <term title="Torque Rating">1. A torque value large enough to cause a motor to stop running. 2. The maximum torque output of a motor. Also called the stall torque.</term>
+      <term title="Torsen differential">A torsen differential is a planetary type differential in which the slower-moving wheel always receives more torque than the faster-moving wheel.</term>
+      <term title="Traction">Kinetic friction between a drive member and the driving surface.</term>
+      <term title="Transducer">1. In engineering, a device which converts energy from one form to another. 2. In robotics, a device which converts electricity to another form of energy or vice versa.</term>
+      <term title="Transformer">A device used to transfer electric energy from one circuit to another, especially a pair of multiply wound, inductively coupled wire coils that effect such a transfer with a change in voltage, current, phase, or other electric characteristic. </term>
+      <term title="Translation">Movement along a straight line.</term>
+      <term title="Trapezium">A four-sided shape in which none of the opposing sides are parallel.</term>
+      <term title="Trim">1. (verb) To adjust a variable resistor or capacitor. 2. (noun) Fine-controlled adjustment of a radio transmitter or receiver.</term>
+      <term title="TRUE">Not false. In programming, any non-zero value. By convention, always written in capital letters.</term>
+      <term title="Truncated">(adjective) Cut short.</term>
+      <term title="Turnbuckle">A double-ended eyebolt with a left and right-handed thread in the central nut. Turning the nut increases or decreases the tension in the rod or wire to which the turnbuckle is attached.</term>
+      <term title="Type">Classification for programming variables.</term>
+      <term title="Ultrasound">Sound with a frequency above the range of human hearing.</term>
+      <term title="Ultraviolet">Light with a frequency above the range of human vision.</term>
+      <term title="Uniform Motion">Motion at a constant speed.</term>
+      <term title="Uniformly Accelerated Motion">Motion under a constant acceleration.</term>
+      <term title="Unsigned Variable">A variable which only stores numbers greater than or equal to zero.</term>
+      <term title="Uppercase Letters">Capital letters like A, B, C, D, etc.</term>
+      <term title="User Function">Code that is encapsulated into a named entity, and can be called from anywhere in a program. A user function often performs one specific task very well, and is named according to what it does.</term>
+      <term title="Value">A number or text string stored in a variable or used as a constant.</term>
+      <term title="Variable">1. A symbol which represents a value which can be changed during the running of a computer program. 2. A symbol which stands for a location in computer memory.</term>
+      <term title="Vision Camera">A camera used by a robot to interpret its environment.</term>
+      <term title="Voltage">The measure of electrical potential.</term>
+      <term title="Voltage Drop">A decline in the capacity of a rechargeable battery.</term>
+      <term title="VOR">VHF (Very High Frequency) Omnidirectional Range; navigational equipment that helps pilots navigate to and from a given VOR station.</term>
+      <term title="Waldo">A mechanical device, such as a gripper arm, which copies the exact movements of a human limb.</term>
+      <term title="Weight">The measure of the force exerted on an object due to gravity.</term>
+      <term title="Wet Cell Battery">A battery whose electrolyte is a liquid.</term>
+      <term title="Wheel Rollout">The distance covered by a rolling wheel during one revolution, equivalent to the circumference of the wheel.</term>
+      <term title="Wheelbase">The area between the wheels of a vehicle.</term>
+      <term title="Winding">Loops of wire used in an electric motor or electromagnet.</term>
+      <term title="Work">The amount of energy transferred by a force acting through a distance.</term>
+      <term title="Work Envelope">The space in which a robotic arm is able to reach and perform its intended task.</term>
+      <term title="Working Depth">The depth of engagement of two mating gears.</term>
+      <term title="Worm">A cylindrical gear with one or more teeth that spiral down the length of the gear.</term>
+      <term title="Worm Gear">A disk-shaped gear with teeth that mesh with a worm.</term>
+      <term title="Wrapping">The loss of the most significant bit of a binary number, caused by exceeding the range of a variable.</term>
+      <term title="Yaw">In three-dimensional space, rotational motion around the vertical axis.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
